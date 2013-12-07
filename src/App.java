@@ -1,3 +1,7 @@
+import Model.Population;
+import Model.Schedule;
+import Model.SchedulePopulation;
+
 /**
  * Created by Piotr on 7.12.13.
  */
@@ -17,11 +21,15 @@ public class App {
         geneticAlgorithm.setStopCondition(populationCount);
 
         // generates/evaluetes... new population till stop condition
-        geneticAlgorithm.populate();
+        geneticAlgorithm.generateNextGenerations();
 
-        Schdeule bestSchedule = geneticAlgorithm.getBestSchedule();
+        Schedule bestSchedule = geneticAlgorithm.getBestSchedule();
 
         print(bestSchedule);
+
+    }
+
+    private static void print(Schedule bestSchedule) {
 
     }
 }

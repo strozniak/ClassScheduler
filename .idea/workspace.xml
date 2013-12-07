@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8f4c07-2669-49fa-b929-69a0a699c802" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Course.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PopulationCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/Schedule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model/SchedulePopulation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StopCondition.java" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\Schedule.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\SchedulePopulation.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.java" afterPath="$PROJECT_DIR$/src/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Population.java" afterPath="$PROJECT_DIR$/src/Population.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Schedule.java" afterPath="$PROJECT_DIR$/src/Schedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SchedulePopulation.java" afterPath="$PROJECT_DIR$/src/SchedulePopulation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\Population.java" afterPath="$PROJECT_DIR$/src/Model/Population.java" />
     </list>
     <ignored path="ClassScheduler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,39 +79,74 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="23" column="41" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Population.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Population.java">
+      <file leaf-file-name="PopulationCount.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PopulationCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="7" column="27" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopCondition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StopCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="629">
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Population.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Population.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SchedulePopulation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SchedulePopulation.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/SchedulePopulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
+            <state line="12" column="28" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Schedule.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Schedule.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/Schedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.34228188" vertical-offset="0" max-vertical-offset="1043">
+            <state line="27" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.4400767" vertical-offset="0" max-vertical-offset="1836">
               <folding>
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +169,14 @@
         <option value="$PROJECT_DIR$/src/Gene.java" />
         <option value="$PROJECT_DIR$/src/Population.java" />
         <option value="$PROJECT_DIR$/src/SchedulePopulation.java" />
-        <option value="$PROJECT_DIR$/src/App.java" />
+        <option value="$PROJECT_DIR$/src/Course.java" />
         <option value="$PROJECT_DIR$/src/Schedule.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/StopCondition.java" />
+        <option value="$PROJECT_DIR$/src/PopulationCount.java" />
+        <option value="$PROJECT_DIR$/src/App.java" />
+        <option value="$PROJECT_DIR$/src/Model/SchedulePopulation.java" />
+        <option value="$PROJECT_DIR$/src/Model/Schedule.java" />
       </list>
     </option>
   </component>
@@ -194,6 +242,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,7 +453,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -426,35 +492,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SchedulePopulation.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_src.zip/src/pl/pwr/mio/model/Sala.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Population.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_src.zip/src/pl/pwr/mio/model/GodzinaLekcyjna.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_src.zip/src/pl/pwr/mio/model/Grafik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_src.zip/src/pl/pwr/mio/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="14" selection-start="3125" selection-end="3131" vertical-scroll-proportion="1.7603068" vertical-offset="0" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11409396" vertical-offset="0" max-vertical-offset="1043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StopCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="23" column="41" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Schedule.java">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.34228188" vertical-offset="0" max-vertical-offset="1043">
+        <state line="7" column="17" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="629">
           <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PopulationCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/SchedulePopulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.4400767" vertical-offset="0" max-vertical-offset="1836">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
           </folding>
         </state>
       </provider>
