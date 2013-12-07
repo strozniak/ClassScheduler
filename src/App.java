@@ -4,7 +4,9 @@
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("hello intellij world!");
+
+        Population schedule = new SchedulePopulation();
+
 
     }
 }
