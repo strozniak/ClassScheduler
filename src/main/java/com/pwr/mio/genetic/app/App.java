@@ -2,6 +2,7 @@ package com.pwr.mio.genetic.app;
 
 import com.pwr.mio.genetic.model.Population;
 import com.pwr.mio.genetic.model.Schedule;
+import com.pwr.mio.genetic.model.SchedulePopulation;
 import com.pwr.mio.genetic.util.GenerationCountStopCondition;
 import com.pwr.mio.genetic.util.RoulleteSelection;
 import com.pwr.mio.genetic.util.SelectionMethod;

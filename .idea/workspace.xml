@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8f4c07-2669-49fa-b929-69a0a699c802" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Course.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/GenerationCountStopCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Population.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/RoulleteSelection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Schedule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/app/SchedulePopulation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/SelectionMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/StopCondition.java" />
-      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\Model\Population.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\Model\SchedulePopulation.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\PopulationCount.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\StopCondition.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\app\App.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\app\GeneticAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\model\Course.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\model\Population.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\model\Schedule.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\model\SchedulePopulation.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\util\GenerationCountStopCondition.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\util\RoulleteSelection.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\util\SelectionMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\com\pwr\mio\genetic\util\StopCondition.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassScheduler.iml" afterPath="$PROJECT_DIR$/ClassScheduler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\App.java" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/app/App.java" />
-      <change type="MOVED" beforePath="D:\Dokumenty\workspace\inteliij\ClassScheduler\src\GeneticAlgorithm.java" afterPath="$PROJECT_DIR$/src/com/pwr/mio/genetic/app/GeneticAlgorithm.java" />
     </list>
     <ignored path="ClassScheduler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,70 +81,75 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="55" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
+            <state line="22" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoulleteSelection.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/RoulleteSelection.java">
+      <file leaf-file-name="RoulleteSelection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/RoulleteSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="101" selection-end="101" vertical-scroll-proportion="0.08149569" vertical-offset="0" max-vertical-offset="1043">
+            <state line="34" column="9" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#519#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.14669223" vertical-offset="0" max-vertical-offset="1043">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SelectionMethod.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/SelectionMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/SelectionMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
-              <folding />
+            <state line="10" column="88" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GenerationCountStopCondition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="41" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+            <state line="10" column="41" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="46" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="714">
+            <state line="26" column="26" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SchedulePopulation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/SchedulePopulation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/SchedulePopulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1309">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Population.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Population.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
+            <state line="64" column="48" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Schedule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Schedule.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Schedule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="68" column="27" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1887">
               <folding />
@@ -184,7 +189,10 @@
         <option value="$PROJECT_DIR$/src/com/pwr/mio/genetic/model/SchedulePopulation.java" />
         <option value="$PROJECT_DIR$/src/SchedulePopulation.java" />
         <option value="$PROJECT_DIR$/src/com/pwr/mio/genetic/RoulleteSelection.java" />
+        <option value="$PROJECT_DIR$/src/com/pwr/mio/genetic/app/SchedulePopulation.java" />
+        <option value="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/SelectionMethod.java" />
         <option value="$PROJECT_DIR$/src/com/pwr/mio/genetic/util/RoulleteSelection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -252,6 +260,46 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassScheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="genetic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -275,6 +323,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="genetic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -294,6 +350,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -467,6 +531,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5d8f4c07-2669-49fa-b929-69a0a699c802" name="Default" comment="" />
@@ -520,56 +601,61 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="55" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/RoulleteSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/RoulleteSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#519#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/SelectionMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/SelectionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="41" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="46" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/SchedulePopulation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/SchedulePopulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="32" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Population.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Population.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="25" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Schedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Schedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="27" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1853">
           <folding />
@@ -606,7 +692,7 @@
         <state line="115" column="14" selection-start="3125" selection-end="3131" vertical-scroll-proportion="1.7603068" vertical-offset="0" max-vertical-offset="2023" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="19" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11409396" vertical-offset="0" max-vertical-offset="1043">
           <folding />
@@ -615,68 +701,82 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="6" selection-start="19325" selection-end="19325" vertical-scroll-proportion="0.33269414" vertical-offset="6640" max-vertical-offset="9911" />
+        <state line="434" column="6" selection-start="19325" selection-end="19325" vertical-scroll-proportion="0.33269414" vertical-offset="6640" max-vertical-offset="9911">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/StopCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/StopCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Schedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Schedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="27" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/model/Population.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
+        <state line="17" column="9" selection-start="252" selection-end="252" vertical-scroll-proportion="0.27708533" vertical-offset="0" max-vertical-offset="1043">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/SchedulePopulation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1309">
+        <state line="26" column="26" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/app/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/model/SchedulePopulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="714">
+        <state line="64" column="48" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/GenerationCountStopCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="41" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/SelectionMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/SelectionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
-          <folding />
+        <state line="10" column="88" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwr/mio/genetic/util/RoulleteSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pwr/mio/genetic/util/RoulleteSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="101" selection-end="101" vertical-scroll-proportion="0.08149569" vertical-offset="0" max-vertical-offset="1043">
+        <state line="34" column="9" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#519#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.14669223" vertical-offset="0" max-vertical-offset="1043">
           <folding />
         </state>
       </provider>

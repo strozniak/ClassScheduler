@@ -1,4 +1,4 @@
-package com.pwr.mio.genetic.app;
+package com.pwr.mio.genetic.model;
 
 import com.pwr.mio.genetic.model.Population;
 import com.pwr.mio.genetic.model.Schedule;
@@ -62,7 +62,7 @@ public class SchedulePopulation implements Population {
 
     @Override
     public void chooseParents() {
-
+        schedules = selectionMethod.chooseParents(schedules);
     }
 
     public List<Schedule> getSchedules() {
