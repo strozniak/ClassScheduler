@@ -1,6 +1,4 @@
-package Model;
-
-import Model.Course;
+package com.pwr.mio.genetic.model;
 
 import java.util.Random;
 
@@ -9,12 +7,13 @@ import java.util.Random;
  */
 public class Schedule {
 
+    public static final int MAX_GENOME_VALUE = 10;
     private final int TIME_SLOTS;
     private final int ROOMS;
     private final int COURSES;
     private Random random;
     private Course[] courses;
-
+    private int genomeValue;
 
     public Schedule(int timeSlots, int rooms, int courses) {
         TIME_SLOTS = timeSlots;
@@ -26,8 +25,7 @@ public class Schedule {
         generateGeneRandomValues();
     }
 
-    public int getGenomeValue() {
-        int value = 10;
+    public void estimate() {
         int[][] schedule = new int[ROOMS][TIME_SLOTS];
         boolean hasConflicts = false;
         for (int i = 0; i < COURSES; i++) {
@@ -36,15 +34,16 @@ public class Schedule {
             if (schedule[room][time] == 1) {
                 hasConflicts = true;
                 System.out.println("conflict");
-                return 0;
             } else {
                 schedule[room][time] = 1;
             }
         }
 
-        int gaps = getGaps(schedule);
-
-        return value-gaps;
+        if (hasConflicts) {
+            genomeValue = 0;
+        } else {
+            genomeValue = MAX_GENOME_VALUE - getGaps(schedule);
+        }
     }
 
     private boolean hasConflict(int[][] schedule) {
@@ -57,7 +56,7 @@ public class Schedule {
         for (int i = 0; i < ROOMS; i++) {
             int minIdx = getFirstCourseTime(schedule[i]);
             int maxIdx = getLastCourseTime(schedule[i]);
-            for (int j =minIdx; j<maxIdx;j++) {
+            for (int j = minIdx; j < maxIdx; j++) {
                 if (schedule[i][j] != 1) {
                     gaps++;
                 }
@@ -76,7 +75,7 @@ public class Schedule {
 
     private int getFirstCourseTime(int[] roomCourses) {
         int i = 0;
-        while(i<TIME_SLOTS && roomCourses[i] != 1) {
+        while (i < TIME_SLOTS && roomCourses[i] != 1) {
             i++;
         }
         return i;
@@ -98,5 +97,9 @@ public class Schedule {
 
     public Course[] getCourses() {
         return courses;
+    }
+
+    public int getGenomeValue() {
+        return genomeValue;
     }
 }

@@ -1,5 +1,8 @@
-import Model.Population;
-import Model.Schedule;
+package com.pwr.mio.genetic.app;
+
+import com.pwr.mio.genetic.model.Population;
+import com.pwr.mio.genetic.model.Schedule;
+import com.pwr.mio.genetic.util.StopCondition;
 
 /**
  * Created by Piotr on 07.12.13.
@@ -19,13 +22,15 @@ public class GeneticAlgorithm {
     }
 
     public void generateNextGenerations() {
-
-        while (populationCount.isStopConditionFullfilled()) {
-
+        schedulePopulation.estimatePopulation();
+        while (populationCount.isStopConditionFullfilled(schedulePopulation)) {
+            schedulePopulation.chooseParents();
+            schedulePopulation.cross();
+            schedulePopulation.mutate();
         }
     }
 
     public Schedule getBestSchedule() {
-        return null;
+       return schedulePopulation.getBest();
     }
 }
