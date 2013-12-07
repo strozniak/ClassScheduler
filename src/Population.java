@@ -3,5 +3,5 @@
  */
 public interface Population {
 
-    
+    public void generatePopulation();
 }
