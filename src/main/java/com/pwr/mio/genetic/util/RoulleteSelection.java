@@ -15,31 +15,44 @@ public class RoulleteSelection implements SelectionMethod {
 
 
     @Override
-    public List<Schedule> chooseParents(List<Schedule> schedules, int numberOfSelectedSchedules) {
+    public List<Schedule> chooseParents(List<Schedule> schedules) {
         List<Schedule> selectedParents = new LinkedList<Schedule>();
         int sum = countSum(schedules);
+        System.out.println("sum="+sum);
         int perc = 0;
         pie = new int[schedules.size()];
         for (int i = 0; i < schedules.size(); i++) {
-            perc += Math.round((schedules.get(i).getGenomeValue()/sum) * 100);
+            System.out.println("genome value = "+schedules.get(i).getGenomeValue());
+            float div = ((float)schedules.get(i).getGenomeValue()) / sum;
+            System.out.println("div="+div);
+            perc +=div * 100;
+            System.out.println("pie prtg: "+perc);
             pie[i] = perc;
         }
 
-        for(int i = 0; i < numberOfSelectedSchedules;i++) {
+        StringBuffer sb = new StringBuffer();
+        sb.append("Choosen parents: ");
+        for (int i = 0; i < schedules.size(); i++) {
             int rndIndex = random.nextInt(100);
             int j = 0;
-            while (j <  pie.length && rndIndex < pie[j]) {
+            sb.append("random: " + rndIndex + " j=" + j + " pie[j]=" + pie[j]);
+            while (j < pie.length && rndIndex < pie[j]) {
                 ++j;
             }
-            selectedParents.add(schedules.get(j--));
+            if (j > 0) {
+                j--;
+            }
+            sb.append(j + ", ");
+            selectedParents.add(schedules.get(j));
         }
+        System.out.println(sb);
 
         return selectedParents;
     }
 
     private int countSum(List<Schedule> schedules) {
         int sum = 0;
-        for(Schedule schedule:schedules) {
+        for (Schedule schedule : schedules) {
             sum += schedule.getGenomeValue();
         }
         return sum;

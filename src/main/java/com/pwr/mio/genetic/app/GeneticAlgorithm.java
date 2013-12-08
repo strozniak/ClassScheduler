@@ -23,7 +23,7 @@ public class GeneticAlgorithm {
 
     public void generateNextGenerations() {
         schedulePopulation.estimatePopulation();
-        while (populationCount.isStopConditionFullfilled(schedulePopulation)) {
+        while (!populationCount.isStopConditionFullfilled(schedulePopulation)) {
             schedulePopulation.chooseParents();
             schedulePopulation.cross();
             schedulePopulation.mutate();

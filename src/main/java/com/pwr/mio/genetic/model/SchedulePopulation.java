@@ -6,6 +6,7 @@ import com.pwr.mio.genetic.util.SelectionMethod;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by Piotr on 07.12.13.
@@ -16,8 +17,8 @@ public class SchedulePopulation implements Population {
     private final int POPULATION_SIZE;
     private final SelectionMethod selectionMethod;
     private final int COURSES = 10;
-    private final int ROOMS = 3;
-    private final int TIME_SLOTS = 6;
+    private final int ROOMS = 5;
+    private final int TIME_SLOTS = 5;
 
     public SchedulePopulation(int scheduleNumber, SelectionMethod selectionMethod) {
         this.POPULATION_SIZE = scheduleNumber;
@@ -27,8 +28,11 @@ public class SchedulePopulation implements Population {
 
     @Override
     public void generatePopulation() {
+        Random random = new Random(System.currentTimeMillis());
         for (int i = 0; i < POPULATION_SIZE; i++) {
-            schedules.add(new Schedule(TIME_SLOTS, ROOMS, COURSES));
+            Schedule schedule = new Schedule(TIME_SLOTS, ROOMS, COURSES, random);
+            schedules.add(schedule);
+            System.out.println(i+") " + schedule);
         }
     }
 
@@ -52,6 +56,7 @@ public class SchedulePopulation implements Population {
 
     @Override
     public void cross() {
+        //todo
 
     }
 

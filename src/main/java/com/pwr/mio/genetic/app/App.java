@@ -13,7 +13,7 @@ import com.pwr.mio.genetic.util.StopCondition;
  */
 public class App {
 
-    public static final int SCHEDULE_NUMBER = 100;
+    public static final int SCHEDULE_NUMBER = 5;
 
     public static void main(String[] args) {
 

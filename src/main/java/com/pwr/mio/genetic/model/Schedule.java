@@ -7,43 +7,39 @@ import java.util.Random;
  */
 public class Schedule {
 
-    public static final int MAX_GENOME_VALUE = 10;
+    public static final int MAX_GENOME_VALUE = 20;
     private final int TIME_SLOTS;
     private final int ROOMS;
     private final int COURSES;
-    private Random random;
+    private final Random RANDOM;
     private Course[] courses;
     private int genomeValue;
 
-    public Schedule(int timeSlots, int rooms, int courses) {
+    public Schedule(int timeSlots, int rooms, int courses, Random random) {
         TIME_SLOTS = timeSlots;
         ROOMS = rooms;
         COURSES = courses;
-        random = new Random(System.currentTimeMillis());
+        RANDOM = random;
 
         initSchedule();
         generateGeneRandomValues();
     }
 
     public void estimate() {
+        genomeValue = MAX_GENOME_VALUE;
         int[][] schedule = new int[ROOMS][TIME_SLOTS];
         boolean hasConflicts = false;
         for (int i = 0; i < COURSES; i++) {
             int room = courses[i].room;
             int time = courses[i].time;
             if (schedule[room][time] == 1) {
-                hasConflicts = true;
-                System.out.println("conflict");
+                genomeValue -= 2;
+//                System.out.println("conflict, time: " + time + ", room: " + room);
             } else {
                 schedule[room][time] = 1;
             }
         }
-
-        if (hasConflicts) {
-            genomeValue = 0;
-        } else {
-            genomeValue = MAX_GENOME_VALUE - getGaps(schedule);
-        }
+        genomeValue -= getGaps(schedule);
     }
 
     private boolean hasConflict(int[][] schedule) {
@@ -66,7 +62,7 @@ public class Schedule {
     }
 
     private int getLastCourseTime(int[] roomCourses) {
-        int i = TIME_SLOTS;
+        int i = TIME_SLOTS - 1;
         while (i > 0 && roomCourses[i] != 1) {
             i--;
         }
@@ -83,16 +79,33 @@ public class Schedule {
 
     private void generateGeneRandomValues() {
         for (int i = 0; i < COURSES; i++) {
-            int randomTime = random.nextInt(TIME_SLOTS);
-            int randomRoom = random.nextInt(ROOMS);
+            int randomTime = RANDOM.nextInt(TIME_SLOTS);
+            int randomRoom = RANDOM.nextInt(ROOMS);
 
             courses[i].room = randomRoom;
             courses[i].time = randomTime;
         }
+
+        estimate();
+    }
+
+    @Override
+    public String toString() {
+        StringBuffer sb = new StringBuffer();
+        sb.append("Genome = [ ");
+        for (int i = 0; i < COURSES; i++) {
+            sb.append(courses[i].time + " " + courses[i].room + " | ");
+        }
+        sb.append(" ] Eval: " + getGenomeValue());
+
+        return sb.toString();
     }
 
     private void initSchedule() {
         courses = new Course[COURSES];
+        for (int i = 0; i < COURSES; i++) {
+            courses[i] = new Course();
+        }
     }
 
     public Course[] getCourses() {
