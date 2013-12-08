@@ -16,7 +16,7 @@ public class SchedulePopulation implements Population {
     private List<Schedule> schedules;
     private final int POPULATION_SIZE;
     private final SelectionMethod selectionMethod;
-    private final int COURSES = 10;
+    private final int COURSES = 12;
     private final int ROOMS = 5;
     private final int TIME_SLOTS = 5;
 

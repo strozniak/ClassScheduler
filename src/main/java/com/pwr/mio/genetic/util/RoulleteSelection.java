@@ -34,15 +34,16 @@ public class RoulleteSelection implements SelectionMethod {
         sb.append("Choosen parents: ");
         for (int i = 0; i < schedules.size(); i++) {
             int rndIndex = random.nextInt(100);
+            System.out.println("random = "+rndIndex);
             int j = 0;
-            sb.append("random: " + rndIndex + " j=" + j + " pie[j]=" + pie[j]);
-            while (j < pie.length && rndIndex < pie[j]) {
+
+            while (j < pie.length && rndIndex > pie[j]) {
                 ++j;
             }
-            if (j > 0) {
+            if (j== pie.length) {
                 j--;
             }
-            sb.append(j + ", ");
+            sb.append("\ndodano: "+j + ", ");
             selectedParents.add(schedules.get(j));
         }
         System.out.println(sb);

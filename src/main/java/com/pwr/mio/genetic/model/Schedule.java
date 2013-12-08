@@ -7,7 +7,7 @@ import java.util.Random;
  */
 public class Schedule {
 
-    public static final int MAX_GENOME_VALUE = 20;
+    public static final int MAX_GENOME_VALUE = 14;
     private final int TIME_SLOTS;
     private final int ROOMS;
     private final int COURSES;
@@ -40,6 +40,9 @@ public class Schedule {
             }
         }
         genomeValue -= getGaps(schedule);
+        if (genomeValue <= 0 ) {
+            genomeValue = 1;
+        }
     }
 
     private boolean hasConflict(int[][] schedule) {
